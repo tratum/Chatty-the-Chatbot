@@ -1,0 +1,69 @@
+version: "3.1"
+
+intents:
+  - hi
+  - doing
+  - greet
+  - bye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - maker
+  - baat
+
+responses:
+  utter_hi:
+  - text: "Hum Badiya hain"
+  - text: "Hum Badiya hain aap batayein"
+  - text: "Hum Acche hain Aap Batayein"
+  - text: "Hum acche hain"
+  - text: "Sab Theekh hai"
+  - text: "Sab Badiya hai Aap Bataiye"
+
+  utter_doing:
+  - text: "Sab Badiya hai Aap Bataiye"
+  - text: "Bas Chal raha hai, sab ke pareshaniyan dur kar rahe hain aap batain"
+  - text: "Sab sahi hai bas Chal Lahiye hai zindagi aur toh kya hai"
+
+  utter_greet:
+  - text: "namaskar"
+  - text: "namaste"
+  - text: "Pranaam"
+
+  utter_cheer_up:
+  - text: "randi rona naa kar"
+  - text: "randi rona mat kar"
+  - text: "randi rona karna band kar de"
+  - text: "Haar mat maan"
+  - text: "Mood naa kharab kar apna"
+  - text: "Apna mood na kharab kar"
+    
+  utter_did_that_help:
+  - text: "2 peg maar le sab sahi lagega"
+
+  utter_happy:
+  - text: "Badiya Aise he Lage rahe Best of Luck"
+
+  utter_bye:
+  - text: "okay bye"
+  - text: "achha theekh hai"
+  - text: "theekh bye"
+  - text: "bye bye"
+  - text: "theekh theekh"
+
+  utter_iamabot:
+  - text: "Mera Naam Hai Chatty"
+
+  utter_maker:
+  - text: "Mujhe Banane vale ka naam Saksham Rawat hai"
+
+  utter_baat:
+  - text: "Kyunki Main Hinglish main Baat Karta Hun"
+  - text: "Main Hinglish main Baat Karta Hun"
+  - text: "Hinglish main Baat Karta Hun Main"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

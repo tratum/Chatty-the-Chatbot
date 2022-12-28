@@ -1,0 +1,100 @@
+version: "3.1"
+nlu:
+- intent: doing
+  examples: |
+    - kya challa hai
+- intent: greet
+  examples: |
+    - namaste
+- intent: bot_challenge
+  examples: |
+    - am I talking to a bot?
+    - are you a human?
+    - are you a bot?
+- intent: baat
+  examples: |
+    - aise kyu baat kar raha hai
+    - language
+    - what's your language
+- intent: hi
+  examples: |
+    - kya hal chal
+    - kaise hain aap
+    - kya hal hain bhai
+    - kya hal hai
+    - kya hal chaal
+    - kya hal aapke
+    - kaisa hain aap
+- intent: maker
+  examples: |
+    - does anubody own you
+    - who gave birth to you
+    - who is your owner
+    - who are your parents
+    - who is your creator
+    - who owns you
+    - do you have any parents
+- intent: affirm
+  examples: |
+    - han
+    - haan
+    - sahi hai bhai
+    - sahi hai
+    - theekh bhai
+    - theekhe bhai
+    - correct
+    - han jee
+- intent: deny
+  examples: |
+    - mujhe nahi lagta
+    - nahi jee
+    - bhai main nahi janta
+    - n
+    - nahi jee nahi
+    - arey naa bhai
+    - nahi
+    - naa
+    - galat hai
+    - naa bhai naa
+- intent: mood_unhappy
+  examples: |
+    - I am sad
+    - I'm so sad
+    - so f****** sad
+    - so saad
+    - sad
+    - my day was horrible
+    - super sad
+    - I don't feel very well my brain is hurting
+    - not good
+    - so sad
+    - not very good
+- intent: bye
+  examples: |
+    - chaliye theekh hain
+    - bye bye
+    - bye
+    - chalte hain theekh
+    - theekh chalte hain
+    - chalte hain achha
+    - bye bhai
+    - goodbye
+    - achhah theek hain
+    - achha chalte hain
+    - achha fir theekh hain
+    - theekh bye bhai
+- intent: mood_great
+  examples: |
+    - I am going to save the world
+    - amazing
+    - feeling like a king
+    - I am great
+    - I am amazing
+    - so good
+    - so perfect
+    - I am feeling great
+    - great
+    - I feel goood
+    - I am the BOMB!!
+    - perfect
+    - extremely good

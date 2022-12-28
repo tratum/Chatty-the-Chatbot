@@ -1,0 +1,43 @@
+version: "3.1"
+nlu:
+- intent: doing
+  examples: |
+    - kya chal raha hai
+- intent: greet
+  examples: |
+    - namaskar
+- intent: bot_challenge
+  examples: |
+    - am I talking to a human?
+- intent: baat
+  examples: |
+    - what language do you speak
+- intent: hi
+  examples: |
+    - Kya hal hain
+- intent: maker
+  examples: |
+    - who created you
+- intent: affirm
+  examples: |
+    - jee han
+    - hanji
+- intent: deny
+  examples: |
+    - na
+    - naa bhai
+- intent: mood_unhappy
+  examples: |
+    - extremly sad
+    - unhappy
+    - I am disappointed
+- intent: bye
+  examples: |
+    - good night
+    - bye theekh
+    - tata bye bye
+- intent: mood_great
+  examples: |
+    - so so perfect
+    - super stoked
+    - wonderful
