@@ -1,0 +1,57 @@
+version: "3.1"
+stories:
+- story: happy path 1 (.\tests\test_stories.yml)
+  steps:
+  - intent: hi
+  - action: utter_hi  # predicted: action_default_fallback
+  - intent: mood_great  # predicted: deny: aag laga di aag
+  - action: utter_happy
+  - intent: mood_great  # predicted: deny: gajab
+  - action: utter_happy
+  - intent: mood_great  # predicted: hi: kamal kar diya bhai
+  - action: utter_happy
+  - intent: mood_great  # predicted: hi: kamal kar diya
+  - action: utter_happy
+- story: happy path 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: affirm: hello there!
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye  # predicted: bye: bye-bye!
+  - action: utter_bye  # predicted: action_default_fallback
+- story: sad path 1 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: affirm: hello
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm  # predicted: bye: yes
+  - action: utter_happy
+- story: sad path 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: affirm: hello
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny  # predicted: mood_unhappy: not really
+  - action: utter_bye
+- story: sad path 3 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: affirm: hi
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_bye
+- story: creation (.\tests\test_stories.yml)
+  steps:
+  - intent: maker  # predicted: deny: Kisne Banaya hai tujhe?
+  - action: utter_maker  # predicted: utter_happy
+- story: speak (.\tests\test_stories.yml)
+  steps:
+  - intent: baat
+  - action: utter_baat  # predicted: utter_happy

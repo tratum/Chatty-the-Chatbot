@@ -1,0 +1,226 @@
+[
+  {
+    "text": "badhiya",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3921734690666199
+    }
+  },
+  {
+    "text": "bahut achha",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.999526858329773
+    }
+  },
+  {
+    "text": "gajab",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9941646456718445
+    }
+  },
+  {
+    "text": "mahaul set hain",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.39593634009361267
+    }
+  },
+  {
+    "text": "mahaul set hai",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "doing",
+      "confidence": 0.3897254168987274
+    }
+  },
+  {
+    "text": "maja aa gaya",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9476426839828491
+    }
+  },
+  {
+    "text": "boht badiya",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.42099693417549133
+    }
+  },
+  {
+    "text": "boht gajab",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.38246166706085205
+    }
+  },
+  {
+    "text": "gadar",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.49821698665618896
+    }
+  },
+  {
+    "text": "jabardast",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5776114463806152
+    }
+  },
+  {
+    "text": "shandaar",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9846914410591125
+    }
+  },
+  {
+    "text": "emo ho raha hun",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "doing",
+      "confidence": 0.5741662383079529
+    }
+  },
+  {
+    "text": "kya tu bot hai",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.5149630308151245
+    }
+  },
+  {
+    "text": "kya tu bot hain",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9578612446784973
+    }
+  },
+  {
+    "text": "kya tu insaan hain",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9908705353736877
+    }
+  },
+  {
+    "text": "insaan hai kya",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.7496106624603271
+    }
+  },
+  {
+    "text": "insaan hain kya",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9968380928039551
+    }
+  },
+  {
+    "text": "bot hain kya",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9876340627670288
+    }
+  },
+  {
+    "text": "bot hai kya",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.6978619694709778
+    }
+  },
+  {
+    "text": "creator ka naam kya hai",
+    "intent": "maker",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.37260356545448303
+    }
+  },
+  {
+    "text": "creator ka naam kya hain",
+    "intent": "maker",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.8998082280158997
+    }
+  },
+  {
+    "text": "naam kya hai creator ka",
+    "intent": "maker",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.33491596579551697
+    }
+  },
+  {
+    "text": "banane vale ka naam kya hai",
+    "intent": "maker",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.47580814361572266
+    }
+  },
+  {
+    "text": "banane vale ka naam kya hain",
+    "intent": "maker",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.7548799514770508
+    }
+  },
+  {
+    "text": "bhasha",
+    "intent": "baat",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9978846907615662
+    }
+  },
+  {
+    "text": "konsi bhasha bolte ho",
+    "intent": "baat",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.7873557209968567
+    }
+  },
+  {
+    "text": "bhasha konsi bolte ho",
+    "intent": "baat",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.7958638072013855
+    }
+  },
+  {
+    "text": "bhasha kya hai",
+    "intent": "baat",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9159528017044067
+    }
+  }
+]
