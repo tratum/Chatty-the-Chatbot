@@ -1,0 +1,149 @@
+version: "3.1"
+
+nlu:
+- intent: hi
+  examples: |
+    - Kya hal hain
+    - kya hal hai
+    - kya hal chal
+    - kaisa hain aap
+    - kaise hain aap
+    - kya hal hain apke
+    - kya hal hai apke
+    - apke kya hal hai
+    - apke kya hal hain
+    - kya hal hain bhai
+    - kya hal aapke
+    - kya hal chaal
+    - kaise hain aap
+
+- intent: doing
+  examples: |
+    - kya chal raha hai
+    - kya challa hai
+
+- intent: greet
+  examples: |
+    - namaste
+    - namaskar
+
+- intent: bye
+  examples: |
+    - chaliye theekh hain
+    - achhah theek hain
+    - achha fir theekh hain
+    - tata bye bye
+    - theekh chalte hain
+    - chalte hain theekh
+    - achha chalte hain
+    - chalte hain achha
+    - bye theekh
+    - theekh bye bhai
+    - bye bhai
+    - good night
+    - bye
+    - goodbye
+    - bye bye
+    
+- intent: affirm
+  examples: |
+    - hanji
+    - haan
+    - jee han
+    - han
+    - theekh bhai
+    - theekhe bhai
+    - sahi hai bhai
+    - sahi hai
+    - han jee
+    - correct
+
+- intent: deny
+  examples: |
+    - nahi
+    - n
+    - naa bhai
+    - naa
+    - bhai main nahi janta
+    - naa bhai naa
+    - arey naa bhai
+    - na
+    - mujhe nahi lagta
+    - galat hai
+    - nahi jee nahi
+    - nahi jee
+
+- intent: mood_great
+  examples: |
+    - badhiya
+    - bahut achha
+    - gajab
+    - mahaul set hain
+    - mahaul set hai
+    - maja aa gaya
+    - boht badiya
+    - boht gajab
+    - gadar
+    - jabardast
+    - shandaar
+        
+- intent: mood_unhappy
+  examples: |
+    - mera din bakwas tha
+    - mera din bakwas gaya
+    - din bakwas tha
+    - din bada bakwas tha
+    - din bada bakwas gaya
+    - emo ho raha hun 
+    - mood bada emo ho raha hai
+    - mood bada emo ho raha hain
+    - din tatti tha
+    - din tatti gaya
+    - udass hun
+    - dil bada udass hai
+    - dil bada udass hain
+    - sed lyf
+    - sad lyf
+    
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - kya tu bot hai
+    - kya tu bot hain
+    - kya tu insaan hain
+    - insaan hai kya
+    - insaan hain kya
+    - bot hain kya
+    - bot hai kya
+
+- intent: maker
+  examples: |
+    - who created you
+    - who are your parents
+    - do you have any parents
+    - who is your creator
+    - who owns you
+    - who is your owner
+    - does anubody own you
+    - who owns you
+    - who gave birth to you
+    - creator ka naam kya hai
+    - creator ka naam kya hain
+    - naam kya hai creator ka
+    - banane vale ka naam kya hai
+    - banane vale ka naam kya hain
+
+- intent: baat
+  examples: |
+    - aise kyu baat kar raha hai
+    - what language do you speak
+    - language
+    - what's your language
+    - lang
+    - bhasha
+    - konsi bhasha bolte ho
+    - bhasha konsi bolte ho
+    - bhasha kya hai  

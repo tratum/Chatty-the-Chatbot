@@ -1,0 +1,28 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: bye
+  - action: utter_bye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say hi anytime the user says hi
+  steps:
+  - intent: hi
+  - action: utter_hi
+
+- rule: Say greet anytime the user says greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say maker's name anytime the user says maker's name
+  steps:
+  - intent: maker
+  - action: utter_maker
